@@ -101,10 +101,11 @@ p{
 a {
     color: #3b3c5c;
 }
+a:hover {
+    color: red;
+}
+
 @media (max-width:375px){
-    /* .btn {
-        width: 73px;
-    } */
     .calc-head #result {
         height: 90px;
     }
